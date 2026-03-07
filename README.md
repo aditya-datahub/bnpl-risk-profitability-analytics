@@ -42,7 +42,7 @@ The dataset contains simulated BNPL transaction records including the following 
 
 ## Dashboard Preview
 
-![BNPL Dashboard](dashboard.png)
+![BNPL Risk & Profitability Analytics Dashboard](dashboard.png)
 
 ---
 
@@ -125,7 +125,3 @@ This project highlights skills in:
 - Data Storytelling
 
 ---
-
-## Author
-Data Analytics Portfolio Project  
-BNPL Lending Analysis using Power BI
