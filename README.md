@@ -6,6 +6,7 @@
 This project analyzes a simulated **BNPL lending dataset** to understand customer borrowing behavior, credit risk, and profitability patterns using **Power BI**.
 
 The dashboard helps answer key business questions such as:
+
 - Which merchant categories generate the most BNPL transactions?
 - Which BNPL providers issue the highest loan amounts?
 - How does customer credit score influence borrowing behavior?
@@ -16,14 +17,14 @@ The goal is to demonstrate how **data analytics can support risk management and 
 ---
 
 ## Tools & Technologies
-- **Power BI** – Data visualization and dashboard creation  
-- **DAX (Data Analysis Expressions)** – Calculated columns and measures  
-- **Data Modeling** – Data relationships and transformations  
-- **GitHub** – Project documentation and version control  
+
+| Power BI | DAX | Data Modeling |
+|----------|-----|---------------|
 
 ---
 
 ## Dataset Description
+
 The dataset contains simulated BNPL transaction records including the following fields:
 
 | Column | Description |
@@ -42,6 +43,8 @@ The dataset contains simulated BNPL transaction records including the following 
 
 ## Dashboard Preview
 
+The following image shows the **Power BI dashboard created for analyzing BNPL lending performance, customer credit risk, and profitability insights.**
+
 ![BNPL Risk & Profitability Analytics Dashboard](dashboard.png)
 
 ---
@@ -50,12 +53,12 @@ The dataset contains simulated BNPL transaction records including the following 
 
 The dashboard tracks several important lending metrics:
 
-- **Total Customers** – Number of unique customers using BNPL
-- **Total Transactions** – Total number of loan transactions
-- **Total Loan Amount** – Total value of loans issued
-- **Total Interest Earned** – Revenue generated from loans
-- **Average Credit Score** – Overall customer credit quality
-- **Default Rate** – Percentage of loans defaulting within 90 days
+- **Total Customers** – Number of unique customers using BNPL  
+- **Total Transactions** – Total number of loan transactions  
+- **Total Loan Amount** – Total value of loans issued  
+- **Total Interest Earned** – Revenue generated from loans  
+- **Average Credit Score** – Overall customer credit quality  
+- **Default Rate** – Percentage of loans defaulting within 90 days  
 
 ---
 
@@ -100,6 +103,7 @@ AVERAGE(bnpl_full_sample[default_90d])
 ```
 
 Where:
+
 - **TRUE / 1** → Default  
 - **FALSE / 0** → No Default  
 
@@ -107,21 +111,21 @@ Where:
 
 ## Key Insights
 
-- Some **merchant categories drive higher BNPL usage** than others.
+- Certain **merchant categories generate higher BNPL loan volumes**.
 - Customers with **higher credit scores tend to take larger loans**.
-- **Installment preferences influence loan size and repayment behavior**.
+- **Installment choices influence borrowing patterns and repayment behavior**.
 - **High-risk customers show a higher probability of default**, highlighting potential risk areas for lenders.
 
 ---
 
 ## Project Objective
+
 The objective of this project is to demonstrate how **data visualization and analytics can help fintech companies monitor lending performance, manage credit risk, and improve profitability**.
 
 This project highlights skills in:
-- Business Intelligence
-- Data Visualization
-- Risk Analysis
-- Financial Data Analytics
-- Data Storytelling
 
----
+- Business Intelligence  
+- Data Visualization  
+- Risk Analysis  
+- Financial Data Analytics  
+- Data Storytelling
