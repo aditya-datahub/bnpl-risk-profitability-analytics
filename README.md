@@ -43,9 +43,9 @@ The dataset contains simulated BNPL transaction records including the following 
 
 ## Dashboard Preview
 
-The following image shows the **Power BI dashboard created for analyzing BNPL lending performance, customer credit risk, and profitability insights.**
+The following image shows the **Power BI dashboard analyzing BNPL lending performance, customer credit risk, and profitability insights.**
 
-![BNPL Risk & Profitability Analytics Dashboard](dashboard.png)
+![BNPL Dashboard](./dashboard.png)
 
 ---
 
